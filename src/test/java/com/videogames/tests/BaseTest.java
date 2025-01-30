@@ -1,4 +1,3 @@
-// BaseTest.java
 package com.videogames.tests;
 
 import io.restassured.RestAssured;
@@ -12,7 +11,6 @@ public class BaseTest {
     @BeforeClass
     public void setup() {
         RestAssured.baseURI = ConfigurationReader.getBaseUrl();
-        // Enable logging
         RestAssured.filters(new RequestLoggingFilter(), new ResponseLoggingFilter());
     }
 }

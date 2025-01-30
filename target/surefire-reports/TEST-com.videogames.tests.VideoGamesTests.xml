@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.videogames.tests.VideoGamesTests" time="2.692" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.videogames.tests.VideoGamesTests" time="2.975" tests="2" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="20"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -13,7 +13,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/azaygenius_1/Desktop/videogames-api-automation/target/surefire/surefirebooter-20250130045338891_3.jar /Users/azaygenius_1/Desktop/videogames-api-automation/target/surefire 2025-01-30T04-53-38_856-jvmRun1 surefire-20250130045338891_1tmp surefire_0-20250130045338891_2tmp"/>
+    <property name="sun.java.command" value="/Users/azaygenius_1/Desktop/videogames-api-automation/target/surefire/surefirebooter-20250130050649132_3.jar /Users/azaygenius_1/Desktop/videogames-api-automation/target/surefire 2025-01-30T05-06-49_097-jvmRun1 surefire-20250130050649132_1tmp surefire_0-20250130050649132_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="test" value="VideoGamesTests"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/azaygenius_1/Desktop/videogames-api-automation/target/surefire/surefirebooter-20250130045338891_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/azaygenius_1/Desktop/videogames-api-automation/target/surefire/surefirebooter-20250130050649132_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="20.0.2+9-78"/>
@@ -59,7 +59,48 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="64.0"/>
   </properties>
-  <testcase name="testCreateVideoGame" classname="com.videogames.tests.VideoGamesTests" time="1.511">
+  <testcase name="testCompleteVideoGameLifecycle" classname="com.videogames.tests.VideoGamesTests" time="1.929">
+    <failure message="expected [200] but found [404]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [200] but found [404]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1418)
+	at org.testng.Assert.assertEquals(Assert.java:1382)
+	at org.testng.Assert.assertEquals(Assert.java:1428)
+	at com.videogames.tests.VideoGamesTests.testCompleteVideoGameLifecycle(VideoGamesTests.java:44)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://www.videogamedb.uk/api/authenticate
 Proxy:			<none>
@@ -89,12 +130,12 @@ Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Thu, 30 Jan 2025 04:53:40 GMT
+Date: Thu, 30 Jan 2025 05:06:50 GMT
 Keep-Alive: timeout=60
 Connection: keep-alive
 
 {
-    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTczODIxMjgyMCwiZXhwIjoxNzM4MjE2NDIwfQ.rkaoeXNjAC9I6tF9FqSDW4GKFDoFPivWox0NSzF8reU"
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTczODIxMzYxMCwiZXhwIjoxNzM4MjE3MjEwfQ.beXnbmmK7SysQbEdPRzHh_GaB2zmbElKNrUky7e92uI"
 }
 Request method:	POST
 Request URI:	https://www.videogamedb.uk/api/videogame
@@ -104,17 +145,17 @@ Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTczODIxMjgyMCwiZXhwIjoxNzM4MjE2NDIwfQ.rkaoeXNjAC9I6tF9FqSDW4GKFDoFPivWox0NSzF8reU
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTczODIxMzYxMCwiZXhwIjoxNzM4MjE3MjEwfQ.beXnbmmK7SysQbEdPRzHh_GaB2zmbElKNrUky7e92uI
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
     "id": null,
-    "name": "Super Mario",
-    "releaseDate": "2023-01-01 23:59:59",
-    "reviewScore": 95,
-    "category": "Platform",
+    "name": "Test Game",
+    "releaseDate": "2024-01-30",
+    "reviewScore": 85,
+    "category": "Action",
     "rating": "Universal"
 }
 HTTP/1.1 200 
@@ -130,28 +171,57 @@ Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Thu, 30 Jan 2025 04:53:40 GMT
+Date: Thu, 30 Jan 2025 05:06:50 GMT
 Keep-Alive: timeout=60
 Connection: keep-alive
 
 {
     "id": 0,
-    "name": "Super Mario",
-    "releaseDate": "2023-01-01 23:59:59",
-    "reviewScore": 95,
-    "category": "Platform",
+    "name": "Test Game",
+    "releaseDate": "2024-01-30",
+    "reviewScore": 85,
+    "category": "Action",
     "rating": "Universal"
 }
-POST /videogames - Response Code: 200
-POST /videogames - Response Body: {"id":0,"name":"Super Mario","releaseDate":"2023-01-01 23:59:59","reviewScore":95,"category":"Platform","rating":"Universal"}
+Request method:	GET
+Request URI:	https://www.videogamedb.uk/api/videogame/0
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTczODIxMzYxMCwiZXhwIjoxNzM4MjE3MjEwfQ.beXnbmmK7SysQbEdPRzHh_GaB2zmbElKNrUky7e92uI
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Thu, 30 Jan 2025 05:06:51 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "timestamp": "2025-01-30T05:06:51.749+00:00",
+    "status": 404,
+    "error": "Not Found",
+    "path": "/api/videogame/0"
+}
 ]]></system-out>
-    <system-err><![CDATA[[main] INFO com.videogames.config.ConfigurationReader - Configuration loaded successfully
-[main] INFO com.videogames.utils.AuthenticationManager - Attempting to authenticate with API
-[main] INFO com.videogames.utils.AuthenticationManager - Successfully authenticated with API
-]]></system-err>
   </testcase>
-  <testcase name="testGetAllVideoGames" classname="com.videogames.tests.VideoGamesTests" time="0.415">
-    <system-out><![CDATA[Request method:	GET
+  <testcase name="testInvalidVideoGameData" classname="com.videogames.tests.VideoGamesTests" time="0.428">
+    <system-out><![CDATA[Request method:	POST
 Request URI:	https://www.videogamedb.uk/api/videogame
 Proxy:			<none>
 Request params:	<none>
@@ -159,11 +229,20 @@ Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTczODIxMjgyMCwiZXhwIjoxNzM4MjE2NDIwfQ.rkaoeXNjAC9I6tF9FqSDW4GKFDoFPivWox0NSzF8reU
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTczODIxMzYxMCwiZXhwIjoxNzM4MjE3MjEwfQ.beXnbmmK7SysQbEdPRzHh_GaB2zmbElKNrUky7e92uI
+				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
-Body:			<none>
-HTTP/1.1 200 
+Body:
+{
+    "id": null,
+    "name": "",
+    "releaseDate": "2024-01-30",
+    "reviewScore": -1,
+    "category": "",
+    "rating": ""
+}
+HTTP/1.1 400 
 Vary: Origin
 Vary: Access-Control-Request-Method
 Vary: Access-Control-Request-Headers
@@ -176,134 +255,15 @@ Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Thu, 30 Jan 2025 04:53:41 GMT
-Keep-Alive: timeout=60
-Connection: keep-alive
-
-[
-    {
-        "id": 1,
-        "name": "Resident Evil 4",
-        "releaseDate": "2005-10-01 23:59:59",
-        "reviewScore": 85,
-        "category": "Shooter",
-        "rating": "Universal"
-    },
-    {
-        "id": 2,
-        "name": "Gran Turismo 3",
-        "releaseDate": "2001-03-10 23:59:59",
-        "reviewScore": 91,
-        "category": "Driving",
-        "rating": "Universal"
-    },
-    {
-        "id": 3,
-        "name": "Tetris",
-        "releaseDate": "1984-06-25 23:59:59",
-        "reviewScore": 88,
-        "category": "Puzzle",
-        "rating": "Universal"
-    },
-    {
-        "id": 4,
-        "name": "Super Mario 64",
-        "releaseDate": "1996-10-20 23:59:59",
-        "reviewScore": 90,
-        "category": "Platform",
-        "rating": "Universal"
-    },
-    {
-        "id": 5,
-        "name": "The Legend of Zelda: Ocarina of Time",
-        "releaseDate": "1998-12-10 23:59:59",
-        "reviewScore": 93,
-        "category": "Adventure",
-        "rating": "PG-13"
-    },
-    {
-        "id": 6,
-        "name": "Doom",
-        "releaseDate": "1993-02-18 23:59:59",
-        "reviewScore": 81,
-        "category": "Shooter",
-        "rating": "Mature"
-    },
-    {
-        "id": 7,
-        "name": "Minecraft",
-        "releaseDate": "2011-12-05 23:59:59",
-        "reviewScore": 77,
-        "category": "Puzzle",
-        "rating": "Universal"
-    },
-    {
-        "id": 8,
-        "name": "SimCity 2000",
-        "releaseDate": "1994-09-11 23:59:59",
-        "reviewScore": 88,
-        "category": "Strategy",
-        "rating": "Universal"
-    },
-    {
-        "id": 9,
-        "name": "Final Fantasy VII",
-        "releaseDate": "1997-08-20 23:59:59",
-        "reviewScore": 97,
-        "category": "RPG",
-        "rating": "PG-13"
-    },
-    {
-        "id": 10,
-        "name": "Grand Theft Auto III",
-        "releaseDate": "2001-04-23 23:59:59",
-        "reviewScore": 90,
-        "category": "Driving",
-        "rating": "Mature"
-    }
-]
-]]></system-out>
-  </testcase>
-  <testcase name="testGetVideoGameById" classname="com.videogames.tests.VideoGamesTests" time="0.411">
-    <system-out><![CDATA[Request method:	GET
-Request URI:	https://www.videogamedb.uk/api/videogame/1
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=application/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTczODIxMjgyMCwiZXhwIjoxNzM4MjE2NDIwfQ.rkaoeXNjAC9I6tF9FqSDW4GKFDoFPivWox0NSzF8reU
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-HTTP/1.1 200 
-Vary: Origin
-Vary: Access-Control-Request-Method
-Vary: Access-Control-Request-Headers
-X-Content-Type-Options: nosniff
-X-XSS-Protection: 1; mode=block
-Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-Pragma: no-cache
-Expires: 0
-Strict-Transport-Security: max-age=31536000 ; includeSubDomains
-X-Frame-Options: DENY
-Content-Type: application/json
-Transfer-Encoding: chunked
-Date: Thu, 30 Jan 2025 04:53:41 GMT
-Keep-Alive: timeout=60
-Connection: keep-alive
+Date: Thu, 30 Jan 2025 05:06:51 GMT
+Connection: close
 
 {
-    "id": 1,
-    "name": "Resident Evil 4",
-    "releaseDate": "2005-10-01 23:59:59",
-    "reviewScore": 85,
-    "category": "Shooter",
-    "rating": "Universal"
+    "timestamp": "2025-01-30T05:06:52.199+00:00",
+    "status": 400,
+    "error": "Bad Request",
+    "path": "/api/videogame"
 }
-GET /videogame/1 - Response Code: 200
-GET /videogame/1 - Response Body: {"id":1,"name":"Resident Evil 4","releaseDate":"2005-10-01 23:59:59","reviewScore":85,"category":"Shooter","rating":"Universal"}
 ]]></system-out>
   </testcase>
 </testsuite>

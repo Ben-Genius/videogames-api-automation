@@ -1,14 +1,11 @@
-// VideoGamesController.java
 package com.videogames.controllers;
 
 import com.videogames.config.ConfigurationReader;
 import com.videogames.models.VideoGame;
 import com.videogames.utils.AuthenticationManager;
-
 import io.qameta.allure.Step;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
-import io.restassured.specification.RequestSpecification;
 
 public class VideoGamesController {
     
@@ -18,33 +15,48 @@ public class VideoGamesController {
 
     @Step("Get all video games")
     public Response getAllVideoGames() {
-        RequestSpecification request = RestAssured.given()
+        return RestAssured.given()
             .header("Accept", "application/json")
-            .header("Authorization", "Bearer " + AuthenticationManager.getAuthToken());
-        
-        return request.get(ConfigurationReader.getVideoGamesEndpoint());
+            .header("Authorization", "Bearer " + AuthenticationManager.getAuthToken())
+            .get(ConfigurationReader.getVideoGamesEndpoint());
     }
 
-    @Step("Get video game by ID")
+    @Step("Get video game by ID: {id}")
     public Response getVideoGameById(Integer id) {
-        RequestSpecification request = RestAssured.given()
+        return RestAssured.given()
             .header("Accept", "application/json")
-            .header("Authorization", "Bearer " + AuthenticationManager.getAuthToken());
-        
-        String endpoint = ConfigurationReader.getProperty("endpoint.videogame")
-            .replace("{id}", id.toString());
-        
-        return request.get(endpoint);
+            .header("Authorization", "Bearer " + AuthenticationManager.getAuthToken())
+            .get(ConfigurationReader.getProperty("endpoint.videogame")
+                .replace("{id}", id.toString()));
     }
 
     @Step("Create new video game")
     public Response createVideoGame(VideoGame videoGame) {
-        RequestSpecification request = RestAssured.given()
+        return RestAssured.given()
             .header("Content-Type", "application/json")
             .header("Accept", "application/json")
             .header("Authorization", "Bearer " + AuthenticationManager.getAuthToken())
-            .body(videoGame);
-        
-        return request.post(ConfigurationReader.getVideoGamesEndpoint());
+            .body(videoGame)
+            .post(ConfigurationReader.getVideoGamesEndpoint());
+    }
+
+    @Step("Update video game with ID: {id}")
+    public Response updateVideoGame(Integer id, VideoGame videoGame) {
+        return RestAssured.given()
+            .header("Content-Type", "application/json")
+            .header("Accept", "application/json")
+            .header("Authorization", "Bearer " + AuthenticationManager.getAuthToken())
+            .body(videoGame)
+            .put(ConfigurationReader.getProperty("endpoint.videogame")
+                .replace("{id}", id.toString()));
+    }
+
+    @Step("Delete video game with ID: {id}")
+    public Response deleteVideoGame(Integer id) {
+        return RestAssured.given()
+            .header("Accept", "application/json")
+            .header("Authorization", "Bearer " + AuthenticationManager.getAuthToken())
+            .delete(ConfigurationReader.getProperty("endpoint.videogame")
+                .replace("{id}", id.toString()));
     }
 }

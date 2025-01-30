@@ -3,9 +3,7 @@ package com.videogames.config;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
-import lombok.extern.slf4j.Slf4j;
 
-@Slf4j
 public class ConfigurationReader {
     private static final Properties properties = new Properties();
     
@@ -16,9 +14,7 @@ public class ConfigurationReader {
                 throw new RuntimeException("Unable to find config.properties");
             }
             properties.load(input);
-            log.info("Configuration loaded successfully");
         } catch (IOException ex) {
-            log.error("Failed to load configuration", ex);
             throw new RuntimeException("Failed to load configuration file", ex);
         }
     }

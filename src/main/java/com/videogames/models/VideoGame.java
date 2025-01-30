@@ -1,8 +1,8 @@
 package com.videogames.models;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Builder;
 import lombok.Data;
+import com.fasterxml.jackson.annotation.JsonFormat;
 
 @Data
 @Builder
