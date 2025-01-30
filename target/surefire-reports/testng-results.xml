@@ -2,46 +2,46 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-30T04:50:39 GMT" name="Surefire suite" finished-at="2025-01-30T04:50:43 GMT" duration-ms="3382">
+  <suite started-at="2025-01-30T04:53:50 GMT" name="Surefire suite" finished-at="2025-01-30T04:53:54 GMT" duration-ms="3317">
     <groups>
     </groups>
-    <test started-at="2025-01-30T04:50:39 GMT" name="Surefire test" finished-at="2025-01-30T04:50:43 GMT" duration-ms="3382">
+    <test started-at="2025-01-30T04:53:50 GMT" name="Surefire test" finished-at="2025-01-30T04:53:54 GMT" duration-ms="3317">
       <class name="com.videogames.tests.AuthenticationTests">
-        <test-method is-config="true" signature="init()[pri:0, instance:com.videogames.tests.AuthenticationTests@2e55dd0c]" started-at="2025-01-30T04:50:42 GMT" name="init" finished-at="2025-01-30T04:50:42 GMT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.videogames.tests.AuthenticationTests@2e55dd0c]" started-at="2025-01-30T04:50:42 GMT" name="setup" finished-at="2025-01-30T04:50:42 GMT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.videogames.tests.AuthenticationTests@2e55dd0c]" started-at="2025-01-30T04:53:53 GMT" name="setup" finished-at="2025-01-30T04:53:53 GMT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testFailedAuthentication()[pri:0, instance:com.videogames.tests.AuthenticationTests@2e55dd0c]" started-at="2025-01-30T04:50:42 GMT" name="testFailedAuthentication" finished-at="2025-01-30T04:50:42 GMT" duration-ms="434" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.videogames.tests.AuthenticationTests@2e55dd0c]" started-at="2025-01-30T04:53:53 GMT" name="init" finished-at="2025-01-30T04:53:53 GMT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testFailedAuthentication()[pri:0, instance:com.videogames.tests.AuthenticationTests@2e55dd0c]" started-at="2025-01-30T04:53:53 GMT" name="testFailedAuthentication" finished-at="2025-01-30T04:53:53 GMT" duration-ms="426" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFailedAuthentication -->
-        <test-method signature="testSuccessfulAuthentication()[pri:0, instance:com.videogames.tests.AuthenticationTests@2e55dd0c]" started-at="2025-01-30T04:50:42 GMT" name="testSuccessfulAuthentication" finished-at="2025-01-30T04:50:43 GMT" duration-ms="440" status="PASS">
+        <test-method signature="testSuccessfulAuthentication()[pri:0, instance:com.videogames.tests.AuthenticationTests@2e55dd0c]" started-at="2025-01-30T04:53:53 GMT" name="testSuccessfulAuthentication" finished-at="2025-01-30T04:53:54 GMT" duration-ms="420" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSuccessfulAuthentication -->
       </class> <!-- com.videogames.tests.AuthenticationTests -->
       <class name="com.videogames.tests.VideoGamesTests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.videogames.tests.VideoGamesTests@34f7cfd9]" started-at="2025-01-30T04:50:39 GMT" name="setup" finished-at="2025-01-30T04:50:39 GMT" duration-ms="123" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.videogames.tests.VideoGamesTests@34f7cfd9]" started-at="2025-01-30T04:53:50 GMT" name="setup" finished-at="2025-01-30T04:53:50 GMT" duration-ms="110" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="init()[pri:0, instance:com.videogames.tests.VideoGamesTests@34f7cfd9]" started-at="2025-01-30T04:50:39 GMT" name="init" finished-at="2025-01-30T04:50:39 GMT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.videogames.tests.VideoGamesTests@34f7cfd9]" started-at="2025-01-30T04:53:50 GMT" name="init" finished-at="2025-01-30T04:53:50 GMT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="testCreateVideoGame()[pri:0, instance:com.videogames.tests.VideoGamesTests@34f7cfd9]" started-at="2025-01-30T04:50:39 GMT" name="testCreateVideoGame" finished-at="2025-01-30T04:50:41 GMT" duration-ms="1495" status="PASS">
+        <test-method signature="testCreateVideoGame()[pri:0, instance:com.videogames.tests.VideoGamesTests@34f7cfd9]" started-at="2025-01-30T04:53:50 GMT" name="testCreateVideoGame" finished-at="2025-01-30T04:53:52 GMT" duration-ms="1421" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreateVideoGame -->
-        <test-method signature="testGetAllVideoGames()[pri:0, instance:com.videogames.tests.VideoGamesTests@34f7cfd9]" started-at="2025-01-30T04:50:41 GMT" name="testGetAllVideoGames" finished-at="2025-01-30T04:50:41 GMT" duration-ms="411" status="PASS">
+        <test-method signature="testGetAllVideoGames()[pri:0, instance:com.videogames.tests.VideoGamesTests@34f7cfd9]" started-at="2025-01-30T04:53:52 GMT" name="testGetAllVideoGames" finished-at="2025-01-30T04:53:52 GMT" duration-ms="443" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetAllVideoGames -->
-        <test-method signature="testGetVideoGameById()[pri:0, instance:com.videogames.tests.VideoGamesTests@34f7cfd9]" started-at="2025-01-30T04:50:41 GMT" name="testGetVideoGameById" finished-at="2025-01-30T04:50:42 GMT" duration-ms="416" status="PASS">
+        <test-method signature="testGetVideoGameById()[pri:0, instance:com.videogames.tests.VideoGamesTests@34f7cfd9]" started-at="2025-01-30T04:53:52 GMT" name="testGetVideoGameById" finished-at="2025-01-30T04:53:53 GMT" duration-ms="443" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetVideoGameById -->

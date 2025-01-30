@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.videogames.tests.VideoGamesTests" time="2.716" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.videogames.tests.VideoGamesTests" time="2.692" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="20"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -13,7 +13,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/azaygenius_1/Desktop/videogames-api-automation/target/surefire/surefirebooter-20250130044852375_3.jar /Users/azaygenius_1/Desktop/videogames-api-automation/target/surefire 2025-01-30T04-48-52_338-jvmRun1 surefire-20250130044852375_1tmp surefire_0-20250130044852375_2tmp"/>
+    <property name="sun.java.command" value="/Users/azaygenius_1/Desktop/videogames-api-automation/target/surefire/surefirebooter-20250130045338891_3.jar /Users/azaygenius_1/Desktop/videogames-api-automation/target/surefire 2025-01-30T04-53-38_856-jvmRun1 surefire-20250130045338891_1tmp surefire_0-20250130045338891_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="test" value="VideoGamesTests"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/azaygenius_1/Desktop/videogames-api-automation/target/surefire/surefirebooter-20250130044852375_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/azaygenius_1/Desktop/videogames-api-automation/target/surefire/surefirebooter-20250130045338891_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="20.0.2+9-78"/>
@@ -59,7 +59,7 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="64.0"/>
   </properties>
-  <testcase name="testCreateVideoGame" classname="com.videogames.tests.VideoGamesTests" time="1.523">
+  <testcase name="testCreateVideoGame" classname="com.videogames.tests.VideoGamesTests" time="1.511">
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://www.videogamedb.uk/api/authenticate
 Proxy:			<none>
@@ -73,8 +73,8 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "username": "admin",
-    "password": "admin"
+    "password": "admin",
+    "username": "admin"
 }
 HTTP/1.1 200 
 Vary: Origin
@@ -89,12 +89,12 @@ Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Thu, 30 Jan 2025 04:48:53 GMT
+Date: Thu, 30 Jan 2025 04:53:40 GMT
 Keep-Alive: timeout=60
 Connection: keep-alive
 
 {
-    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTczODIxMjUzMywiZXhwIjoxNzM4MjE2MTMzfQ.HcezG3ambZBY-XRpCyx-g-pGjJoOX3Y8NHAeLGzKoNg"
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTczODIxMjgyMCwiZXhwIjoxNzM4MjE2NDIwfQ.rkaoeXNjAC9I6tF9FqSDW4GKFDoFPivWox0NSzF8reU"
 }
 Request method:	POST
 Request URI:	https://www.videogamedb.uk/api/videogame
@@ -104,12 +104,13 @@ Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTczODIxMjUzMywiZXhwIjoxNzM4MjE2MTMzfQ.HcezG3ambZBY-XRpCyx-g-pGjJoOX3Y8NHAeLGzKoNg
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTczODIxMjgyMCwiZXhwIjoxNzM4MjE2NDIwfQ.rkaoeXNjAC9I6tF9FqSDW4GKFDoFPivWox0NSzF8reU
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
+    "id": null,
     "name": "Super Mario",
     "releaseDate": "2023-01-01 23:59:59",
     "reviewScore": 95,
@@ -129,7 +130,7 @@ Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Thu, 30 Jan 2025 04:48:53 GMT
+Date: Thu, 30 Jan 2025 04:53:40 GMT
 Keep-Alive: timeout=60
 Connection: keep-alive
 
@@ -144,8 +145,12 @@ Connection: keep-alive
 POST /videogames - Response Code: 200
 POST /videogames - Response Body: {"id":0,"name":"Super Mario","releaseDate":"2023-01-01 23:59:59","reviewScore":95,"category":"Platform","rating":"Universal"}
 ]]></system-out>
+    <system-err><![CDATA[[main] INFO com.videogames.config.ConfigurationReader - Configuration loaded successfully
+[main] INFO com.videogames.utils.AuthenticationManager - Attempting to authenticate with API
+[main] INFO com.videogames.utils.AuthenticationManager - Successfully authenticated with API
+]]></system-err>
   </testcase>
-  <testcase name="testGetAllVideoGames" classname="com.videogames.tests.VideoGamesTests" time="0.428">
+  <testcase name="testGetAllVideoGames" classname="com.videogames.tests.VideoGamesTests" time="0.415">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://www.videogamedb.uk/api/videogame
 Proxy:			<none>
@@ -154,7 +159,7 @@ Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTczODIxMjUzMywiZXhwIjoxNzM4MjE2MTMzfQ.HcezG3ambZBY-XRpCyx-g-pGjJoOX3Y8NHAeLGzKoNg
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTczODIxMjgyMCwiZXhwIjoxNzM4MjE2NDIwfQ.rkaoeXNjAC9I6tF9FqSDW4GKFDoFPivWox0NSzF8reU
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
@@ -171,7 +176,7 @@ Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Thu, 30 Jan 2025 04:48:54 GMT
+Date: Thu, 30 Jan 2025 04:53:41 GMT
 Keep-Alive: timeout=60
 Connection: keep-alive
 
@@ -259,7 +264,7 @@ Connection: keep-alive
 ]
 ]]></system-out>
   </testcase>
-  <testcase name="testGetVideoGameById" classname="com.videogames.tests.VideoGamesTests" time="0.418">
+  <testcase name="testGetVideoGameById" classname="com.videogames.tests.VideoGamesTests" time="0.411">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://www.videogamedb.uk/api/videogame/1
 Proxy:			<none>
@@ -268,7 +273,7 @@ Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTczODIxMjUzMywiZXhwIjoxNzM4MjE2MTMzfQ.HcezG3ambZBY-XRpCyx-g-pGjJoOX3Y8NHAeLGzKoNg
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTczODIxMjgyMCwiZXhwIjoxNzM4MjE2NDIwfQ.rkaoeXNjAC9I6tF9FqSDW4GKFDoFPivWox0NSzF8reU
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
@@ -285,7 +290,7 @@ Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Thu, 30 Jan 2025 04:48:54 GMT
+Date: Thu, 30 Jan 2025 04:53:41 GMT
 Keep-Alive: timeout=60
 Connection: keep-alive
 
