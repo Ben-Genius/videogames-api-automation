@@ -1,58 +1,127 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-30T09:32:48 GMT" name="Surefire suite" finished-at="2025-01-30T09:32:53 GMT" duration-ms="4922">
+  <suite started-at="2025-01-30T12:25:55 GMT" name="Surefire suite" finished-at="2025-01-30T12:26:06 GMT" duration-ms="10653">
     <groups>
       <group name="negative">
-        <method signature="VideoGamesTests.testInvalidVideoGameData()[pri:0, instance:com.videogames.tests.VideoGamesTests@378542de]" name="testInvalidVideoGameData" class="com.videogames.tests.VideoGamesTests"/>
+        <method signature="VideoGamesTests.testDeleteInvalidGameId()[pri:0, instance:com.videogames.tests.VideoGamesTests@53976f5c]" name="testDeleteInvalidGameId" class="com.videogames.tests.VideoGamesTests"/>
+        <method signature="VideoGamesTests.testInvalidVideoGameData()[pri:0, instance:com.videogames.tests.VideoGamesTests@53976f5c]" name="testInvalidVideoGameData" class="com.videogames.tests.VideoGamesTests"/>
+        <method signature="VideoGamesTests.testNonExistentGameId()[pri:0, instance:com.videogames.tests.VideoGamesTests@53976f5c]" name="testNonExistentGameId" class="com.videogames.tests.VideoGamesTests"/>
       </group> <!-- negative -->
       <group name="regression">
-        <method signature="VideoGamesTests.testInvalidVideoGameData()[pri:0, instance:com.videogames.tests.VideoGamesTests@378542de]" name="testInvalidVideoGameData" class="com.videogames.tests.VideoGamesTests"/>
+        <method signature="VideoGamesTests.testCreateVideoGame()[pri:0, instance:com.videogames.tests.VideoGamesTests@53976f5c]" name="testCreateVideoGame" class="com.videogames.tests.VideoGamesTests"/>
+        <method signature="VideoGamesTests.testDeleteInvalidGameId()[pri:0, instance:com.videogames.tests.VideoGamesTests@53976f5c]" name="testDeleteInvalidGameId" class="com.videogames.tests.VideoGamesTests"/>
+        <method signature="VideoGamesTests.testGetAllVideoGames()[pri:0, instance:com.videogames.tests.VideoGamesTests@53976f5c]" name="testGetAllVideoGames" class="com.videogames.tests.VideoGamesTests"/>
+        <method signature="VideoGamesTests.testGetVideoGameById()[pri:0, instance:com.videogames.tests.VideoGamesTests@53976f5c]" name="testGetVideoGameById" class="com.videogames.tests.VideoGamesTests"/>
+        <method signature="VideoGamesTests.testInvalidVideoGameData()[pri:0, instance:com.videogames.tests.VideoGamesTests@53976f5c]" name="testInvalidVideoGameData" class="com.videogames.tests.VideoGamesTests"/>
+        <method signature="VideoGamesTests.testNonExistentGameId()[pri:0, instance:com.videogames.tests.VideoGamesTests@53976f5c]" name="testNonExistentGameId" class="com.videogames.tests.VideoGamesTests"/>
       </group> <!-- regression -->
       <group name="smoke">
-        <method signature="VideoGamesTests.testCompleteVideoGameLifecycle()[pri:0, instance:com.videogames.tests.VideoGamesTests@378542de]" name="testCompleteVideoGameLifecycle" class="com.videogames.tests.VideoGamesTests"/>
+        <method signature="VideoGamesTests.testCompleteVideoGameLifecycle()[pri:0, instance:com.videogames.tests.VideoGamesTests@53976f5c]" name="testCompleteVideoGameLifecycle" class="com.videogames.tests.VideoGamesTests"/>
+        <method signature="VideoGamesTests.testCreateVideoGameRequest()[pri:0, instance:com.videogames.tests.VideoGamesTests@53976f5c]" name="testCreateVideoGameRequest" class="com.videogames.tests.VideoGamesTests"/>
+        <method signature="VideoGamesTests.testDeleteVideoGame()[pri:0, instance:com.videogames.tests.VideoGamesTests@53976f5c]" name="testDeleteVideoGame" class="com.videogames.tests.VideoGamesTests"/>
+        <method signature="VideoGamesTests.testDeleteVideoGameRequest()[pri:0, instance:com.videogames.tests.VideoGamesTests@53976f5c]" name="testDeleteVideoGameRequest" class="com.videogames.tests.VideoGamesTests"/>
+        <method signature="VideoGamesTests.testUpdateVideoGame()[pri:0, instance:com.videogames.tests.VideoGamesTests@53976f5c]" name="testUpdateVideoGame" class="com.videogames.tests.VideoGamesTests"/>
+        <method signature="VideoGamesTests.testUpdateVideoGameRequest()[pri:0, instance:com.videogames.tests.VideoGamesTests@53976f5c]" name="testUpdateVideoGameRequest" class="com.videogames.tests.VideoGamesTests"/>
+        <method signature="VideoGamesTests.testVideoGameApiResponses()[pri:0, instance:com.videogames.tests.VideoGamesTests@53976f5c]" name="testVideoGameApiResponses" class="com.videogames.tests.VideoGamesTests"/>
+        <method signature="VideoGamesTests.testVideoGameReadOperations()[pri:0, instance:com.videogames.tests.VideoGamesTests@53976f5c]" name="testVideoGameReadOperations" class="com.videogames.tests.VideoGamesTests"/>
       </group> <!-- smoke -->
       <group name="positive">
-        <method signature="VideoGamesTests.testCompleteVideoGameLifecycle()[pri:0, instance:com.videogames.tests.VideoGamesTests@378542de]" name="testCompleteVideoGameLifecycle" class="com.videogames.tests.VideoGamesTests"/>
+        <method signature="VideoGamesTests.testCompleteVideoGameLifecycle()[pri:0, instance:com.videogames.tests.VideoGamesTests@53976f5c]" name="testCompleteVideoGameLifecycle" class="com.videogames.tests.VideoGamesTests"/>
+        <method signature="VideoGamesTests.testCreateVideoGameRequest()[pri:0, instance:com.videogames.tests.VideoGamesTests@53976f5c]" name="testCreateVideoGameRequest" class="com.videogames.tests.VideoGamesTests"/>
+        <method signature="VideoGamesTests.testDeleteVideoGame()[pri:0, instance:com.videogames.tests.VideoGamesTests@53976f5c]" name="testDeleteVideoGame" class="com.videogames.tests.VideoGamesTests"/>
+        <method signature="VideoGamesTests.testDeleteVideoGameRequest()[pri:0, instance:com.videogames.tests.VideoGamesTests@53976f5c]" name="testDeleteVideoGameRequest" class="com.videogames.tests.VideoGamesTests"/>
+        <method signature="VideoGamesTests.testUpdateVideoGame()[pri:0, instance:com.videogames.tests.VideoGamesTests@53976f5c]" name="testUpdateVideoGame" class="com.videogames.tests.VideoGamesTests"/>
+        <method signature="VideoGamesTests.testUpdateVideoGameRequest()[pri:0, instance:com.videogames.tests.VideoGamesTests@53976f5c]" name="testUpdateVideoGameRequest" class="com.videogames.tests.VideoGamesTests"/>
+        <method signature="VideoGamesTests.testVideoGameApiResponses()[pri:0, instance:com.videogames.tests.VideoGamesTests@53976f5c]" name="testVideoGameApiResponses" class="com.videogames.tests.VideoGamesTests"/>
+        <method signature="VideoGamesTests.testVideoGameReadOperations()[pri:0, instance:com.videogames.tests.VideoGamesTests@53976f5c]" name="testVideoGameReadOperations" class="com.videogames.tests.VideoGamesTests"/>
       </group> <!-- positive -->
     </groups>
-    <test started-at="2025-01-30T09:32:48 GMT" name="Surefire test" finished-at="2025-01-30T09:32:53 GMT" duration-ms="4922">
+    <test started-at="2025-01-30T12:25:55 GMT" name="Surefire test" finished-at="2025-01-30T12:26:06 GMT" duration-ms="10653">
       <class name="com.videogames.tests.AuthenticationTests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.videogames.tests.AuthenticationTests@696da30b]" started-at="2025-01-30T09:32:52 GMT" name="setup" finished-at="2025-01-30T09:32:52 GMT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="init()[pri:0, instance:com.videogames.tests.AuthenticationTests@696da30b]" started-at="2025-01-30T09:32:52 GMT" name="init" finished-at="2025-01-30T09:32:52 GMT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.videogames.tests.AuthenticationTests@732c2a62]" started-at="2025-01-30T12:26:05 GMT" name="init" finished-at="2025-01-30T12:26:05 GMT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="testFailedAuthentication()[pri:0, instance:com.videogames.tests.AuthenticationTests@696da30b]" started-at="2025-01-30T09:32:52 GMT" name="testFailedAuthentication" finished-at="2025-01-30T09:32:52 GMT" duration-ms="421" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.videogames.tests.AuthenticationTests@732c2a62]" started-at="2025-01-30T12:26:05 GMT" name="setup" finished-at="2025-01-30T12:26:05 GMT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testFailedAuthentication()[pri:0, instance:com.videogames.tests.AuthenticationTests@732c2a62]" started-at="2025-01-30T12:26:05 GMT" name="testFailedAuthentication" finished-at="2025-01-30T12:26:06 GMT" duration-ms="410" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFailedAuthentication -->
-        <test-method signature="testSuccessfulAuthentication()[pri:0, instance:com.videogames.tests.AuthenticationTests@696da30b]" started-at="2025-01-30T09:32:52 GMT" name="testSuccessfulAuthentication" finished-at="2025-01-30T09:32:53 GMT" duration-ms="425" status="PASS">
+        <test-method signature="testSuccessfulAuthentication()[pri:0, instance:com.videogames.tests.AuthenticationTests@732c2a62]" started-at="2025-01-30T12:26:06 GMT" name="testSuccessfulAuthentication" finished-at="2025-01-30T12:26:06 GMT" duration-ms="408" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSuccessfulAuthentication -->
       </class> <!-- com.videogames.tests.AuthenticationTests -->
       <class name="com.videogames.tests.VideoGamesTests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.videogames.tests.VideoGamesTests@378542de]" started-at="2025-01-30T09:32:48 GMT" name="setup" finished-at="2025-01-30T09:32:48 GMT" duration-ms="117" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.videogames.tests.VideoGamesTests@53976f5c]" started-at="2025-01-30T12:25:56 GMT" name="setup" finished-at="2025-01-30T12:25:56 GMT" duration-ms="232" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="init()[pri:0, instance:com.videogames.tests.VideoGamesTests@378542de]" started-at="2025-01-30T09:32:48 GMT" name="init" finished-at="2025-01-30T09:32:48 GMT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.videogames.tests.VideoGamesTests@53976f5c]" started-at="2025-01-30T12:25:56 GMT" name="init" finished-at="2025-01-30T12:25:56 GMT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="testCompleteVideoGameLifecycle()[pri:0, instance:com.videogames.tests.VideoGamesTests@378542de]" started-at="2025-01-30T09:32:48 GMT" name="testCompleteVideoGameLifecycle" finished-at="2025-01-30T09:32:51 GMT" duration-ms="3397" status="PASS">
+        <test-method signature="testCompleteVideoGameLifecycle()[pri:0, instance:com.videogames.tests.VideoGamesTests@53976f5c]" started-at="2025-01-30T12:25:56 GMT" name="testCompleteVideoGameLifecycle" finished-at="2025-01-30T12:25:59 GMT" duration-ms="2976" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCompleteVideoGameLifecycle -->
-        <test-method signature="testInvalidVideoGameData()[pri:0, instance:com.videogames.tests.VideoGamesTests@378542de]" started-at="2025-01-30T09:32:51 GMT" name="testInvalidVideoGameData" finished-at="2025-01-30T09:32:52 GMT" duration-ms="462" status="PASS">
+        <test-method signature="testCreateVideoGame()[pri:0, instance:com.videogames.tests.VideoGamesTests@53976f5c]" started-at="2025-01-30T12:25:59 GMT" name="testCreateVideoGame" finished-at="2025-01-30T12:25:59 GMT" duration-ms="411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateVideoGame -->
+        <test-method signature="testCreateVideoGameRequest()[pri:0, instance:com.videogames.tests.VideoGamesTests@53976f5c]" started-at="2025-01-30T12:25:59 GMT" name="testCreateVideoGameRequest" finished-at="2025-01-30T12:26:00 GMT" duration-ms="409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateVideoGameRequest -->
+        <test-method signature="testDeleteInvalidGameId()[pri:0, instance:com.videogames.tests.VideoGamesTests@53976f5c]" started-at="2025-01-30T12:26:00 GMT" name="testDeleteInvalidGameId" finished-at="2025-01-30T12:26:00 GMT" duration-ms="461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteInvalidGameId -->
+        <test-method signature="testDeleteVideoGame()[pri:0, instance:com.videogames.tests.VideoGamesTests@53976f5c]" started-at="2025-01-30T12:26:00 GMT" name="testDeleteVideoGame" finished-at="2025-01-30T12:26:01 GMT" duration-ms="421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteVideoGame -->
+        <test-method signature="testDeleteVideoGameRequest()[pri:0, instance:com.videogames.tests.VideoGamesTests@53976f5c]" started-at="2025-01-30T12:26:01 GMT" name="testDeleteVideoGameRequest" finished-at="2025-01-30T12:26:01 GMT" duration-ms="412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteVideoGameRequest -->
+        <test-method signature="testGetAllVideoGames()[pri:0, instance:com.videogames.tests.VideoGamesTests@53976f5c]" started-at="2025-01-30T12:26:01 GMT" name="testGetAllVideoGames" finished-at="2025-01-30T12:26:01 GMT" duration-ms="448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAllVideoGames -->
+        <test-method signature="testGetVideoGameById()[pri:0, instance:com.videogames.tests.VideoGamesTests@53976f5c]" started-at="2025-01-30T12:26:01 GMT" name="testGetVideoGameById" finished-at="2025-01-30T12:26:02 GMT" duration-ms="501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetVideoGameById -->
+        <test-method signature="testInvalidVideoGameData()[pri:0, instance:com.videogames.tests.VideoGamesTests@53976f5c]" started-at="2025-01-30T12:26:02 GMT" name="testInvalidVideoGameData" finished-at="2025-01-30T12:26:02 GMT" duration-ms="445" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidVideoGameData -->
+        <test-method signature="testNonExistentGameId()[pri:0, instance:com.videogames.tests.VideoGamesTests@53976f5c]" started-at="2025-01-30T12:26:02 GMT" name="testNonExistentGameId" finished-at="2025-01-30T12:26:03 GMT" duration-ms="397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNonExistentGameId -->
+        <test-method signature="testUpdateVideoGame()[pri:0, instance:com.videogames.tests.VideoGamesTests@53976f5c]" started-at="2025-01-30T12:26:03 GMT" name="testUpdateVideoGame" finished-at="2025-01-30T12:26:03 GMT" duration-ms="438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateVideoGame -->
+        <test-method signature="testUpdateVideoGameRequest()[pri:0, instance:com.videogames.tests.VideoGamesTests@53976f5c]" started-at="2025-01-30T12:26:03 GMT" name="testUpdateVideoGameRequest" finished-at="2025-01-30T12:26:04 GMT" duration-ms="456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateVideoGameRequest -->
+        <test-method signature="testVideoGameApiResponses()[pri:0, instance:com.videogames.tests.VideoGamesTests@53976f5c]" started-at="2025-01-30T12:26:04 GMT" name="testVideoGameApiResponses" finished-at="2025-01-30T12:26:04 GMT" duration-ms="808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVideoGameApiResponses -->
+        <test-method signature="testVideoGameReadOperations()[pri:0, instance:com.videogames.tests.VideoGamesTests@53976f5c]" started-at="2025-01-30T12:26:04 GMT" name="testVideoGameReadOperations" finished-at="2025-01-30T12:26:05 GMT" duration-ms="844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVideoGameReadOperations -->
       </class> <!-- com.videogames.tests.VideoGamesTests -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
