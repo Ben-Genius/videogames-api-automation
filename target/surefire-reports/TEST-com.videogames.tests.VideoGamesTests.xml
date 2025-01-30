@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.videogames.tests.VideoGamesTests" time="2.716" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="20"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/azaygenius_1/Desktop/videogames-api-automation/target/test-classes:/Users/azaygenius_1/Desktop/videogames-api-automation/target/classes:/Users/azaygenius_1/.m2/repository/io/qameta/allure/allure-rest-assured/2.20.1/allure-rest-assured-2.20.1.jar:/Users/azaygenius_1/.m2/repository/io/qameta/allure/allure-attachments/2.20.1/allure-attachments-2.20.1.jar:/Users/azaygenius_1/.m2/repository/io/qameta/allure/allure-testng/2.20.1/allure-testng-2.20.1.jar:/Users/azaygenius_1/.m2/repository/io/qameta/allure/allure-java-commons/2.20.1/allure-java-commons-2.20.1.jar:/Users/azaygenius_1/.m2/repository/io/qameta/allure/allure-model/2.20.1/allure-model-2.20.1.jar:/Users/azaygenius_1/.m2/repository/io/qameta/allure/allure-test-filter/2.20.1/allure-test-filter-2.20.1.jar:/Users/azaygenius_1/.m2/repository/io/rest-assured/rest-assured/5.3.0/rest-assured-5.3.0.jar:/Users/azaygenius_1/.m2/repository/org/apache/groovy/groovy/4.0.6/groovy-4.0.6.jar:/Users/azaygenius_1/.m2/repository/org/apache/groovy/groovy-xml/4.0.6/groovy-xml-4.0.6.jar:/Users/azaygenius_1/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/azaygenius_1/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/azaygenius_1/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/azaygenius_1/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/azaygenius_1/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/azaygenius_1/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/azaygenius_1/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/azaygenius_1/.m2/repository/io/rest-assured/json-path/5.3.0/json-path-5.3.0.jar:/Users/azaygenius_1/.m2/repository/org/apache/groovy/groovy-json/4.0.6/groovy-json-4.0.6.jar:/Users/azaygenius_1/.m2/repository/io/rest-assured/rest-assured-common/5.3.0/rest-assured-common-5.3.0.jar:/Users/azaygenius_1/.m2/repository/io/rest-assured/xml-path/5.3.0/xml-path-5.3.0.jar:/Users/azaygenius_1/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/azaygenius_1/.m2/repository/org/testng/testng/7.7.1/testng-7.7.1.jar:/Users/azaygenius_1/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/azaygenius_1/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/azaygenius_1/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.14.2/jackson-databind-2.14.2.jar:/Users/azaygenius_1/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.14.2/jackson-annotations-2.14.2.jar:/Users/azaygenius_1/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.14.2/jackson-core-2.14.2.jar:/Users/azaygenius_1/.m2/repository/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar:/Users/azaygenius_1/.m2/repository/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7.jar:/Users/azaygenius_1/.m2/repository/org/slf4j/slf4j-simple/2.0.7/slf4j-simple-2.0.7.jar:/Users/azaygenius_1/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar:/Users/azaygenius_1/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/azaygenius_1/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/azaygenius_1/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/azaygenius_1/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/azaygenius_1/.m2/repository/org/json/json/20231013/json-20231013.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Africa/Accra"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="20"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/azaygenius_1/Desktop/videogames-api-automation/target/surefire/surefirebooter-20250130044852375_3.jar /Users/azaygenius_1/Desktop/videogames-api-automation/target/surefire 2025-01-30T04-48-52_338-jvmRun1 surefire-20250130044852375_1tmp surefire_0-20250130044852375_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="VideoGamesTests"/>
+    <property name="surefire.test.class.path" value="/Users/azaygenius_1/Desktop/videogames-api-automation/target/test-classes:/Users/azaygenius_1/Desktop/videogames-api-automation/target/classes:/Users/azaygenius_1/.m2/repository/io/qameta/allure/allure-rest-assured/2.20.1/allure-rest-assured-2.20.1.jar:/Users/azaygenius_1/.m2/repository/io/qameta/allure/allure-attachments/2.20.1/allure-attachments-2.20.1.jar:/Users/azaygenius_1/.m2/repository/io/qameta/allure/allure-testng/2.20.1/allure-testng-2.20.1.jar:/Users/azaygenius_1/.m2/repository/io/qameta/allure/allure-java-commons/2.20.1/allure-java-commons-2.20.1.jar:/Users/azaygenius_1/.m2/repository/io/qameta/allure/allure-model/2.20.1/allure-model-2.20.1.jar:/Users/azaygenius_1/.m2/repository/io/qameta/allure/allure-test-filter/2.20.1/allure-test-filter-2.20.1.jar:/Users/azaygenius_1/.m2/repository/io/rest-assured/rest-assured/5.3.0/rest-assured-5.3.0.jar:/Users/azaygenius_1/.m2/repository/org/apache/groovy/groovy/4.0.6/groovy-4.0.6.jar:/Users/azaygenius_1/.m2/repository/org/apache/groovy/groovy-xml/4.0.6/groovy-xml-4.0.6.jar:/Users/azaygenius_1/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/azaygenius_1/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/azaygenius_1/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/azaygenius_1/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/azaygenius_1/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/azaygenius_1/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/azaygenius_1/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/azaygenius_1/.m2/repository/io/rest-assured/json-path/5.3.0/json-path-5.3.0.jar:/Users/azaygenius_1/.m2/repository/org/apache/groovy/groovy-json/4.0.6/groovy-json-4.0.6.jar:/Users/azaygenius_1/.m2/repository/io/rest-assured/rest-assured-common/5.3.0/rest-assured-common-5.3.0.jar:/Users/azaygenius_1/.m2/repository/io/rest-assured/xml-path/5.3.0/xml-path-5.3.0.jar:/Users/azaygenius_1/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/azaygenius_1/.m2/repository/org/testng/testng/7.7.1/testng-7.7.1.jar:/Users/azaygenius_1/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/azaygenius_1/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/azaygenius_1/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.14.2/jackson-databind-2.14.2.jar:/Users/azaygenius_1/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.14.2/jackson-annotations-2.14.2.jar:/Users/azaygenius_1/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.14.2/jackson-core-2.14.2.jar:/Users/azaygenius_1/.m2/repository/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar:/Users/azaygenius_1/.m2/repository/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7.jar:/Users/azaygenius_1/.m2/repository/org/slf4j/slf4j-simple/2.0.7/slf4j-simple-2.0.7.jar:/Users/azaygenius_1/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar:/Users/azaygenius_1/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/azaygenius_1/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/azaygenius_1/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/azaygenius_1/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/azaygenius_1/.m2/repository/org/json/json/20231013/json-20231013.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/azaygenius_1"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-07-18"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/azaygenius_1/Desktop/videogames-api-automation"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/azaygenius_1/Desktop/videogames-api-automation/target/surefire/surefirebooter-20250130044852375_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="20.0.2+9-78"/>
+    <property name="user.name" value="geniusazay"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/azaygenius_1/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/h8/tlthc2ms493_1q8f27zp41mh0000gp/T/"/>
+    <property name="java.version" value="20.0.2"/>
+    <property name="user.dir" value="/Users/azaygenius_1/Desktop/videogames-api-automation"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/azaygenius_1/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="20.0.2+9-78"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="64.0"/>
+  </properties>
+  <testcase name="testCreateVideoGame" classname="com.videogames.tests.VideoGamesTests" time="1.523">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://www.videogamedb.uk/api/authenticate
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "admin",
+    "password": "admin"
+}
+HTTP/1.1 200 
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Thu, 30 Jan 2025 04:48:53 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTczODIxMjUzMywiZXhwIjoxNzM4MjE2MTMzfQ.HcezG3ambZBY-XRpCyx-g-pGjJoOX3Y8NHAeLGzKoNg"
+}
+Request method:	POST
+Request URI:	https://www.videogamedb.uk/api/videogame
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTczODIxMjUzMywiZXhwIjoxNzM4MjE2MTMzfQ.HcezG3ambZBY-XRpCyx-g-pGjJoOX3Y8NHAeLGzKoNg
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Super Mario",
+    "releaseDate": "2023-01-01 23:59:59",
+    "reviewScore": 95,
+    "category": "Platform",
+    "rating": "Universal"
+}
+HTTP/1.1 200 
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Thu, 30 Jan 2025 04:48:53 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 0,
+    "name": "Super Mario",
+    "releaseDate": "2023-01-01 23:59:59",
+    "reviewScore": 95,
+    "category": "Platform",
+    "rating": "Universal"
+}
+POST /videogames - Response Code: 200
+POST /videogames - Response Body: {"id":0,"name":"Super Mario","releaseDate":"2023-01-01 23:59:59","reviewScore":95,"category":"Platform","rating":"Universal"}
+]]></system-out>
+  </testcase>
+  <testcase name="testGetAllVideoGames" classname="com.videogames.tests.VideoGamesTests" time="0.428">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://www.videogamedb.uk/api/videogame
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTczODIxMjUzMywiZXhwIjoxNzM4MjE2MTMzfQ.HcezG3ambZBY-XRpCyx-g-pGjJoOX3Y8NHAeLGzKoNg
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Thu, 30 Jan 2025 04:48:54 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+[
+    {
+        "id": 1,
+        "name": "Resident Evil 4",
+        "releaseDate": "2005-10-01 23:59:59",
+        "reviewScore": 85,
+        "category": "Shooter",
+        "rating": "Universal"
+    },
+    {
+        "id": 2,
+        "name": "Gran Turismo 3",
+        "releaseDate": "2001-03-10 23:59:59",
+        "reviewScore": 91,
+        "category": "Driving",
+        "rating": "Universal"
+    },
+    {
+        "id": 3,
+        "name": "Tetris",
+        "releaseDate": "1984-06-25 23:59:59",
+        "reviewScore": 88,
+        "category": "Puzzle",
+        "rating": "Universal"
+    },
+    {
+        "id": 4,
+        "name": "Super Mario 64",
+        "releaseDate": "1996-10-20 23:59:59",
+        "reviewScore": 90,
+        "category": "Platform",
+        "rating": "Universal"
+    },
+    {
+        "id": 5,
+        "name": "The Legend of Zelda: Ocarina of Time",
+        "releaseDate": "1998-12-10 23:59:59",
+        "reviewScore": 93,
+        "category": "Adventure",
+        "rating": "PG-13"
+    },
+    {
+        "id": 6,
+        "name": "Doom",
+        "releaseDate": "1993-02-18 23:59:59",
+        "reviewScore": 81,
+        "category": "Shooter",
+        "rating": "Mature"
+    },
+    {
+        "id": 7,
+        "name": "Minecraft",
+        "releaseDate": "2011-12-05 23:59:59",
+        "reviewScore": 77,
+        "category": "Puzzle",
+        "rating": "Universal"
+    },
+    {
+        "id": 8,
+        "name": "SimCity 2000",
+        "releaseDate": "1994-09-11 23:59:59",
+        "reviewScore": 88,
+        "category": "Strategy",
+        "rating": "Universal"
+    },
+    {
+        "id": 9,
+        "name": "Final Fantasy VII",
+        "releaseDate": "1997-08-20 23:59:59",
+        "reviewScore": 97,
+        "category": "RPG",
+        "rating": "PG-13"
+    },
+    {
+        "id": 10,
+        "name": "Grand Theft Auto III",
+        "releaseDate": "2001-04-23 23:59:59",
+        "reviewScore": 90,
+        "category": "Driving",
+        "rating": "Mature"
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="testGetVideoGameById" classname="com.videogames.tests.VideoGamesTests" time="0.418">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://www.videogamedb.uk/api/videogame/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTczODIxMjUzMywiZXhwIjoxNzM4MjE2MTMzfQ.HcezG3ambZBY-XRpCyx-g-pGjJoOX3Y8NHAeLGzKoNg
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Thu, 30 Jan 2025 04:48:54 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "id": 1,
+    "name": "Resident Evil 4",
+    "releaseDate": "2005-10-01 23:59:59",
+    "reviewScore": 85,
+    "category": "Shooter",
+    "rating": "Universal"
+}
+GET /videogame/1 - Response Code: 200
+GET /videogame/1 - Response Body: {"id":1,"name":"Resident Evil 4","releaseDate":"2005-10-01 23:59:59","reviewScore":85,"category":"Shooter","rating":"Universal"}
+]]></system-out>
+  </testcase>
+</testsuite>

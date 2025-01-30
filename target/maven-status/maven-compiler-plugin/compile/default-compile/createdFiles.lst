@@ -1,0 +1,6 @@
+com/videogames/models/VideoGame.class
+com/videogames/utils/AuthenticationManager.class
+com/videogames/models/VideoGame$VideoGameBuilder.class
+com/videogames/controllers/AuthController.class
+com/videogames/config/ConfigurationReader.class
+com/videogames/controllers/VideoGamesController.class
