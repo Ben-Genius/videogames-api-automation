@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="4.75" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="5.257" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="20"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -13,7 +13,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/azaygenius_1/Desktop/videogames-api-automation/target/surefire/surefirebooter-20250130051626026_3.jar /Users/azaygenius_1/Desktop/videogames-api-automation/target/surefire 2025-01-30T05-16-25_989-jvmRun1 surefire-20250130051626026_1tmp surefire_0-20250130051626026_2tmp"/>
+    <property name="sun.java.command" value="/Users/azaygenius_1/Desktop/videogames-api-automation/target/surefire/surefirebooter-20250130093247841_3.jar /Users/azaygenius_1/Desktop/videogames-api-automation/target/surefire 2025-01-30T09-32-47_807-jvmRun1 surefire-20250130093247841_1tmp surefire_0-20250130093247841_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/azaygenius_1/Desktop/videogames-api-automation/target/test-classes:/Users/azaygenius_1/Desktop/videogames-api-automation/target/classes:/Users/azaygenius_1/.m2/repository/io/qameta/allure/allure-rest-assured/2.20.1/allure-rest-assured-2.20.1.jar:/Users/azaygenius_1/.m2/repository/io/qameta/allure/allure-attachments/2.20.1/allure-attachments-2.20.1.jar:/Users/azaygenius_1/.m2/repository/io/qameta/allure/allure-testng/2.20.1/allure-testng-2.20.1.jar:/Users/azaygenius_1/.m2/repository/io/qameta/allure/allure-java-commons/2.20.1/allure-java-commons-2.20.1.jar:/Users/azaygenius_1/.m2/repository/io/qameta/allure/allure-model/2.20.1/allure-model-2.20.1.jar:/Users/azaygenius_1/.m2/repository/io/qameta/allure/allure-test-filter/2.20.1/allure-test-filter-2.20.1.jar:/Users/azaygenius_1/.m2/repository/io/rest-assured/rest-assured/5.3.0/rest-assured-5.3.0.jar:/Users/azaygenius_1/.m2/repository/org/apache/groovy/groovy/4.0.6/groovy-4.0.6.jar:/Users/azaygenius_1/.m2/repository/org/apache/groovy/groovy-xml/4.0.6/groovy-xml-4.0.6.jar:/Users/azaygenius_1/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/azaygenius_1/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/azaygenius_1/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/azaygenius_1/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/azaygenius_1/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/azaygenius_1/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/azaygenius_1/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/azaygenius_1/.m2/repository/io/rest-assured/json-path/5.3.0/json-path-5.3.0.jar:/Users/azaygenius_1/.m2/repository/org/apache/groovy/groovy-json/4.0.6/groovy-json-4.0.6.jar:/Users/azaygenius_1/.m2/repository/io/rest-assured/rest-assured-common/5.3.0/rest-assured-common-5.3.0.jar:/Users/azaygenius_1/.m2/repository/io/rest-assured/xml-path/5.3.0/xml-path-5.3.0.jar:/Users/azaygenius_1/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/azaygenius_1/.m2/repository/org/testng/testng/7.7.1/testng-7.7.1.jar:/Users/azaygenius_1/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/azaygenius_1/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/azaygenius_1/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.14.2/jackson-databind-2.14.2.jar:/Users/azaygenius_1/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.14.2/jackson-annotations-2.14.2.jar:/Users/azaygenius_1/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.14.2/jackson-core-2.14.2.jar:/Users/azaygenius_1/.m2/repository/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar:/Users/azaygenius_1/.m2/repository/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7.jar:/Users/azaygenius_1/.m2/repository/org/slf4j/slf4j-simple/2.0.7/slf4j-simple-2.0.7.jar:/Users/azaygenius_1/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar:/Users/azaygenius_1/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/azaygenius_1/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/azaygenius_1/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/azaygenius_1/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/azaygenius_1/.m2/repository/org/json/json/20231013/json-20231013.jar:"/>
@@ -30,7 +30,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/azaygenius_1/Desktop/videogames-api-automation/target/surefire/surefirebooter-20250130051626026_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/azaygenius_1/Desktop/videogames-api-automation/target/surefire/surefirebooter-20250130093247841_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="20.0.2+9-78"/>
@@ -58,7 +58,7 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="64.0"/>
   </properties>
-  <testcase name="testCompleteVideoGameLifecycle" classname="com.videogames.tests.VideoGamesTests" time="2.976">
+  <testcase name="testCompleteVideoGameLifecycle" classname="com.videogames.tests.VideoGamesTests" time="3.436">
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://www.videogamedb.uk/api/authenticate
 Proxy:			<none>
@@ -88,12 +88,12 @@ Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Thu, 30 Jan 2025 05:16:27 GMT
+Date: Thu, 30 Jan 2025 09:32:49 GMT
 Keep-Alive: timeout=60
 Connection: keep-alive
 
 {
-    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTczODIxNDE4NywiZXhwIjoxNzM4MjE3Nzg3fQ.hD6bGWgdU_ZffKvXhll8amjB4Z57DSzRbKqOGSTHKAc"
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTczODIyOTU2OSwiZXhwIjoxNzM4MjMzMTY5fQ.is1MPBrQSoKY7Rr1zOBP9Es66AZK3SSP6Xaf6qusKxI"
 }
 Request method:	POST
 Request URI:	https://www.videogamedb.uk/api/videogame
@@ -103,7 +103,7 @@ Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTczODIxNDE4NywiZXhwIjoxNzM4MjE3Nzg3fQ.hD6bGWgdU_ZffKvXhll8amjB4Z57DSzRbKqOGSTHKAc
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTczODIyOTU2OSwiZXhwIjoxNzM4MjMzMTY5fQ.is1MPBrQSoKY7Rr1zOBP9Es66AZK3SSP6Xaf6qusKxI
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
@@ -129,7 +129,7 @@ Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Thu, 30 Jan 2025 05:16:27 GMT
+Date: Thu, 30 Jan 2025 09:32:49 GMT
 Keep-Alive: timeout=60
 Connection: keep-alive
 
@@ -150,7 +150,7 @@ Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTczODIxNDE4NywiZXhwIjoxNzM4MjE3Nzg3fQ.hD6bGWgdU_ZffKvXhll8amjB4Z57DSzRbKqOGSTHKAc
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTczODIyOTU2OSwiZXhwIjoxNzM4MjMzMTY5fQ.is1MPBrQSoKY7Rr1zOBP9Es66AZK3SSP6Xaf6qusKxI
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
@@ -167,7 +167,7 @@ Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Thu, 30 Jan 2025 05:16:29 GMT
+Date: Thu, 30 Jan 2025 09:32:52 GMT
 Keep-Alive: timeout=60
 Connection: keep-alive
 
@@ -181,7 +181,7 @@ Connection: keep-alive
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testInvalidVideoGameData" classname="com.videogames.tests.VideoGamesTests" time="0.417">
+  <testcase name="testInvalidVideoGameData" classname="com.videogames.tests.VideoGamesTests" time="0.463">
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://www.videogamedb.uk/api/videogame
 Proxy:			<none>
@@ -190,7 +190,7 @@ Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=application/json
-				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTczODIxNDE4NywiZXhwIjoxNzM4MjE3Nzg3fQ.hD6bGWgdU_ZffKvXhll8amjB4Z57DSzRbKqOGSTHKAc
+				Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTczODIyOTU2OSwiZXhwIjoxNzM4MjMzMTY5fQ.is1MPBrQSoKY7Rr1zOBP9Es66AZK3SSP6Xaf6qusKxI
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
@@ -216,18 +216,18 @@ Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Thu, 30 Jan 2025 05:16:29 GMT
+Date: Thu, 30 Jan 2025 09:32:52 GMT
 Connection: close
 
 {
-    "timestamp": "2025-01-30T05:16:30.189+00:00",
+    "timestamp": "2025-01-30T09:32:52.531+00:00",
     "status": 400,
     "error": "Bad Request",
     "path": "/api/videogame"
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testFailedAuthentication" classname="com.videogames.tests.AuthenticationTests" time="0.42">
+  <testcase name="testFailedAuthentication" classname="com.videogames.tests.AuthenticationTests" time="0.424">
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://www.videogamedb.uk/api/authenticate
 Proxy:			<none>
@@ -273,12 +273,12 @@ Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Thu, 30 Jan 2025 05:16:29 GMT
+Date: Thu, 30 Jan 2025 09:32:52 GMT
 Keep-Alive: timeout=60
 Connection: keep-alive
 
 {
-    "timestamp": "2025-01-30T05:16:30.606+00:00",
+    "timestamp": "2025-01-30T09:32:52.954+00:00",
     "status": 403,
     "error": "Forbidden",
     "path": "/api/authenticate"
@@ -296,21 +296,21 @@ Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Thu, 30 Jan 2025 05:16:29 GMT
+Date: Thu, 30 Jan 2025 09:32:52 GMT
 Keep-Alive: timeout=60
 Connection: keep-alive
 
 {
-    "timestamp": "2025-01-30T05:16:30.606+00:00",
+    "timestamp": "2025-01-30T09:32:52.954+00:00",
     "status": 403,
     "error": "Forbidden",
     "path": "/api/authenticate"
 }
 Auth Failure Response: 403
-Body: {"timestamp":"2025-01-30T05:16:30.606+00:00","status":403,"error":"Forbidden","path":"/api/authenticate"}
+Body: {"timestamp":"2025-01-30T09:32:52.954+00:00","status":403,"error":"Forbidden","path":"/api/authenticate"}
 ]]></system-out>
   </testcase>
-  <testcase name="testSuccessfulAuthentication" classname="com.videogames.tests.AuthenticationTests" time="0.401">
+  <testcase name="testSuccessfulAuthentication" classname="com.videogames.tests.AuthenticationTests" time="0.425">
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://www.videogamedb.uk/api/authenticate
 Proxy:			<none>
@@ -356,12 +356,12 @@ Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Thu, 30 Jan 2025 05:16:31 GMT
+Date: Thu, 30 Jan 2025 09:32:53 GMT
 Keep-Alive: timeout=60
 Connection: keep-alive
 
 {
-    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTczODIxNDE5MSwiZXhwIjoxNzM4MjE3NzkxfQ.40XHIZoJnO53j2RrNHAiFgjVs9PnF5hdZnQzfh48BS4"
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTczODIyOTU3MywiZXhwIjoxNzM4MjMzMTczfQ.fRyBj-v0L2WKx3OmksvftPidy8bXOetoVKRKIUwW91M"
 }
 HTTP/1.1 200 
 Vary: Origin
@@ -376,12 +376,12 @@ Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Thu, 30 Jan 2025 05:16:31 GMT
+Date: Thu, 30 Jan 2025 09:32:53 GMT
 Keep-Alive: timeout=60
 Connection: keep-alive
 
 {
-    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTczODIxNDE5MSwiZXhwIjoxNzM4MjE3NzkxfQ.40XHIZoJnO53j2RrNHAiFgjVs9PnF5hdZnQzfh48BS4"
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTczODIyOTU3MywiZXhwIjoxNzM4MjMzMTczfQ.fRyBj-v0L2WKx3OmksvftPidy8bXOetoVKRKIUwW91M"
 }
 ]]></system-out>
   </testcase>
